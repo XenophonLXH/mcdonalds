@@ -3,6 +3,7 @@ let slideIndex = 1;
 showSlides(slideIndex);
 
 function nextSlide(n) {
+    console.log("Test");
     showSlides(slideIndex + 1);
 }
 

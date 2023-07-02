@@ -76,6 +76,8 @@ ul {
     width: 100%;
     position: relative;
     margin: auto;
+    background-color: white;
+    font-size: 30px;
 }
 
 .slide {
@@ -96,10 +98,34 @@ ul {
     margin: 0;
 }
 
-.carousal-text {
+.carousal-info {
     position: absolute;
-    text-align: center;
     align-content: center;
+    bottom: 0;
+    background-color: white;
+    border-radius: 15px;
+    margin: 1em;
+    font-size: initial;
+}
+
+.carousal-info div {
+    margin: 10px 10px;
+}
+
+.carousal-info p {
+    margin: 1px 10px;
+    font-size: 0.9rem;
+}
+
+.carousal-btn {
+    background-color: #ffbc0d;
+    width: 40%;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 10px 15px;
 }
 
 .prev, .next {
@@ -107,8 +133,17 @@ ul {
     position: absolute;
     top: 50%;
     width: auto;
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 18px;
     user-select: none;
+    margin: 0px 10px;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
 }
